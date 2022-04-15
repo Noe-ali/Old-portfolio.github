@@ -1,1 +1,345 @@
-Hello World
+<!DOCTYPE html>
+<HTml>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css" >
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <div class="topnav" id="topnav">
+    <a href="#home">Inicio</a>
+    <a href="#about">Sobre Mí</a>
+    <a href="#technologies">Tecnologías</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contacto</a>
+    <a href="javascript:void(0);" class="icon" onclick="togglenavbar()">
+      <i class="fa fa-bars" /> </i>
+    </a>
+  </div>
+
+  <main class="container">
+   
+    <section >
+     <div class="header_main">
+       <div class="divmicara " >
+        <img src="img/yo.jpg" alt="profile Picture" class="micara" >
+         <span>
+          <h1>Noé Rivera Lugo</h1>
+          <h2>Desarrollador De Software </h2>
+         <!--   <a href="https://www.linkedin.com/in/noealirl/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Noe-ali" target="_blank"> <i class="fa-brands fa-github"></i></i></a>
+        </span>
+         </div>
+         </div>
+   </section>
+
+
+    <section class="about " id="about">
+      <div class="reveal">
+        <h1>¿Quién Soy? </h1>
+        <p>Hola, mi nombre es <b>Noé</b> Estudiante y desarrollador de Software.</p>
+        <p> Tengo 23 años nací en Ciudad de México, mis hobbies son la música y los videojuegos. Actualmente estudio en
+          la Universidad Politécnica de Puebla, en la carrera de Ingeniería en TI. </p>
+        <p>También he impartido conferencias enfocadas al desarrollo estudiantil de jóvenes universitarios y
+          preuniversitarios.
+          Me gustaría poder explotar mis capacidades en diferentes sectores de investigación y desarrollo. Así como
+          involucrarme en más proyectos y presentarlos a través de pláticas y conferencias.</p>
+        <a href="./CURRICULUM.pdf" class="buttons" target="_blank"> Descargar CV </a>
+      </div>
+    </section>
+
+
+
+    <section class="skills" id="technologies">
+      <div class="myskills">
+        <h1 class=""> Tecnologías y Habilidades</h1>
+        <div class="skillsimages">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3_logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="nodejs">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+            alt="javascript">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" alt="HTml">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+            alt="Python-logo-notext">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="portfolio reveal" id="portfolio">
+    <div class="portfolio-div ">
+      <h1>Mi trabajo</h1>
+      <div class="gridfolio ">
+        <div class="pfolio1">
+          <div class="contenedor-img ejemplo-1">
+            <img src="img/SIS2.png" alt="">
+
+            <div class="mascara">
+              <h2>Tienda Shop In Style</h2>
+              <br>
+              <label for="span" class="tag-yellow">#PHP</label>
+              <label for="span" class="tag-red">#Laravel</label>
+              <label for="span" class="tag-blue">#MySQL</label>
+
+              <p> Sistema web de administración de tienda, tipo CRUD.</p>
+              <br>
+              <br>
+              <a class="buttons-white-noblock" href="#open-modal-1"><i class="fa-solid fa-up-right-from-square"></i> Ver
+                más</a>
+              <a class="buttons-white-noblock" href="https://github.com/Noe-ali/TiendaLaravel" target="_blank"><i
+                  class="fa-solid fa-code"></i> Repositorio</a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="pfolio2">
+          <div class="contenedor-img ejemplo-1">
+            <img src="img/ECO1.png" alt="">
+
+            <div class="mascara">
+              <h2>E-Contact Manager</h2>
+              <br>
+              <label for="span" class="tag-yellow">#JavaScript</label>
+              <label for="span" class="tag-purple">#BootStrap</label>
+
+              <p> Sistema web de manejo de clientes, tipo CRUD, con generación de reportes</p>
+              <br>
+              <br>
+              <a class="buttons-white-noblock" href="https://econtact.netlify.app/login" target="_blank" ><i class="fa-solid fa-up-right-from-square"></i> Ver
+                más</a>
+              <a class="buttons-white-noblock" href="https://github.com/Noe-ali/Econtact"><i
+                  class="fa-solid fa-code"></i> Repositorio</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="pfolio3">
+          <div class="contenedor-img ejemplo-1">
+            <img src="img/ABO1.png" alt="">
+
+            <div class="mascara">
+              <h2>Despacho Integral de Abogados</h2>
+              <br>
+              <label for="span" class="tag-yellow">#PHP</label>
+              <label for="span" class="tag-red">#Laravel</label>
+              <label for="span" class="tag-purple">#BootStrap</label>
+              <label for="span" class="tag-blue">#MySQL</label>
+
+
+
+              <p> Sistema Web de Abogacía</p>
+              <br>
+              <br>
+              <a class="buttons-white-noblock" href="#open-modal-2"><i class="fa-solid fa-up-right-from-square"></i> Ver
+                más</a>
+              <a class="buttons-white-noblock" href="https://github.com/Noe-ali/DespachoAbogados" target="_blank" ><i
+                  class="fa-solid fa-code"></i> Repositorio</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="pfolio4">
+          <div class="contenedor-img ejemplo-1">
+            <img src="img/SC.png" alt="">
+
+            <div class="mascara">
+              <h2>BirthDay Countdown</h2>
+              <br>
+              <label for="span" class="tag-yellow">#JavaScript</label>
+              <p> Invitación de cumpleaños con cuenta regresiva</p>
+              <br>
+              <br>
+              <a class="buttons-white-noblock" href="https://pfoliocountdown.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Ver
+                más</a>
+              <a class="buttons-white-noblock" href="https://github.com/Noe-ali/SimpleCountdown" target="_blank"><i
+                  class="fa-solid fa-code"></i> Repositorio</a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="pfolio5">
+          <div class="contenedor-img ejemplo-1">
+            <img src="img/Jeanne.png" alt="">
+
+            <div class="mascara">
+              <h2>Jeanne Bot</h2>
+              <br>
+              <label for="span" class="tag-green">#NodeJS</label>
+              <label for="span" class="tag-yellow">#ExpressJS</label>
+              <label for="span" class="tag-purple">#DiscordJS</label>
+              <p> Bot de envío de mensajes para la plataforma Discord</p>
+              <br>
+              <br>
+              <a class="buttons-white-noblock" href="#open-modal-3"><i class="fa-solid fa-up-right-from-square"></i> Ver
+                más</a>
+              <a class="buttons-white-noblock" href="https://github.com/Noe-ali/JeanneBot"><i
+                  class="fa-solid fa-code"></i> Repositorio</a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+<footer id="contact">
+  <div class="footer reveal">
+    <h1 >¿Tienes algún proyecto en mente?</h1>
+    <h1 >Contáctame</h1>
+    <a href="https://www.linkedin.com/in/noealirl/"> <i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/Noe-ali"> <i class="fa-brands fa-github"></i></i></a>
+    <a href="mailto:noe.alirl@outlook.com"> <i class="fa-solid fa-envelope"></i></i></a>
+    <br>
+    <p> <small> Copyright © By Noé Rivera.</small></p>
+</footer>
+
+
+
+   MODALS--
+  <div id="open-modal-1" class="modal-window">
+    <div>
+      <a href="#portfolio" title="Close" class="modal-close"><i class="fa-solid fa-xmark"></i></a>
+      <h1 align="center">Capturas</h1>
+      <div class="slideshow-container">
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/SIS1.png" style="width:100%">
+          <div class="text">Carrito de compras</div>
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/SIS2.png" style="width:100%">
+
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/SIS3.png" style="width:100%">
+
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+
+        <div align="center"><small>Sistema web tipo CRUD para tienda en linea, con funcionalidad de carrito de compras y generación de
+          reportes en PDF</small>
+          <br>
+          <a href="https://github.com/Noe-ali/TiendaLaravel" target="_blank" class="buttons-white"> <i
+            class="fa-solid fa-up-right-from-square"></i> Ver repositorio </a></div>
+      
+    </div>
+      </div>
+
+    -MODALS 2--
+      <div id="open-modal-2" class="modal-window">
+        <div>
+          <a href="#portfolio" title="Close" class="modal-close"><i class="fa-solid fa-xmark"></i></a>
+          <h1 align="center">Capturas</h1>
+          <div class="slideshow-container">
+    
+            <div class="mySlides2 fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/ABO1.png" style="width:100%">
+            </div>
+    
+            <div class="mySlides2 fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img/ABO2.png" style="width:100%">
+    
+            </div>
+    
+            <div class="mySlides2 fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/ABO3.png" style="width:100%">
+    
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+
+            <div align="center"><small>Sistema Web de despacho integral de abogados, elaborado en laravel PHP. Generación de reportes, envío de correos electrónicos. CRUD de elementos de la pantalla y administración de usuarios. Sistema de perfil personal y agenda de citas.
+              <br>
+              Diseño en base a plantilla bootstrap.
+            </small>
+              <br>
+              <a href="https://github.com/Noe-ali/DespachoAbogados" target="_blank" class="buttons-white"> <i
+                class="fa-solid fa-up-right-from-square"></i> Ver repositorio </a></div>
+          
+        </div>
+          </div>
+
+    -MODALS 3-
+    <div id="open-modal-3" class="modal-window">
+      <div>
+        <a href="#portfolio" title="Close" class="modal-close"><i class="fa-solid fa-xmark"></i></a>
+        <h1 align="center">Capturas</h1>
+        <div class="slideshow-container">
+  
+          <div class="mySlides3 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/Jeanne2.png" style="width:100%">
+          </div>
+  
+          <div class="mySlides3 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/Jeanne3.png" style="width:100%">
+  
+          </div>
+  
+          <div class="mySlides3 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/Jeanne.png" style="width:100%">
+  
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+          
+          </div>
+          <br>
+          
+
+          <div align="center"><small>
+            Bot de mensajes para la plataforma Discord. Envío de anuncios y registro de acciones dentro del chat.
+            <br>
+            Base de datos de usuarios y almacenamiento de nombres de usuario, canal de buzon de sugerencias, envío de imagenes, mensajes especiales y Juegos de adivinanzas.
+          </small>
+            <br>
+            <a href="https://github.com/Noe-ali/JeanneBot" target="_blank" class="buttons-white"> <i
+              class="fa-solid fa-up-right-from-square"></i> Ver repositorio </a></div>
+        
+      </div>
+        </div> -->
+  <script src="js/app.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="https://kit.fontawesome.com/0d9ad3c2ac.js" crossorigin="anonymous"></script>
+</body>
+
+
+</HTml>
