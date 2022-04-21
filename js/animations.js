@@ -31,3 +31,30 @@ window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
 reveal();
+
+
+
+
+//to make the autotype work.
+var wrote = document.getElementById('write');
+function write(elem, str, duration) {
+	var elem = elem;
+	var length = str.length	
+	var ms = (duration*1000)/length;
+	var currStr = "";
+	var i = 0;
+	var int = setInterval(type, ms);
+	console.log(currStr);
+	function type() {
+		currStr += str[i]
+		elem.innerHTML = currStr
+		
+		i += 1;
+		if (i === length) {
+			setTimeout(function() { elem.innerHTML = currStr }, 2000);
+			clearInterval(int);
+		}
+	}
+}
+
+setTimeout(write(wrote, "Noé Rivera Lugo", 2), 1000);
