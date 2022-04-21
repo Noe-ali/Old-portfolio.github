@@ -463,10 +463,9 @@ body {
     margin: 2% 0 0 0
     }
     .contenedor-img p {
-    font-size: 100%;
+    font-size: 10px;
     position: relative;
     color: #fff;
-    padding: 1% 2% 1%;
     text-align: center;
     font-family: 'Cascadia Code', sans-serif;
   
